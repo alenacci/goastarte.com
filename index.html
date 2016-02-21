@@ -46,12 +46,19 @@
 	<!-- Preloader -->
 	<div class="page-loader">
 		<div class="loader">Loading...</div>
-	</div>
+	</div>	
 
 	<!-- Navigation start -->
 	<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" role="navigation">
 
 		<div class="container">
+
+			<!-- Remove me -->
+			<div class="alert alert-warning alert-dismissible" role="alert">
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  <strong>Warning!</strong> We are currently updating the website for the Embedded World 2016 event. 
+			</div>		
+			<!-- Remove me -->
 	
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
@@ -60,6 +67,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
+				<img src="photos/AstarteLogo2.png" width="100">
 			</div>
 	
 			<div class="collapse navbar-collapse" id="custom-collapse">
@@ -67,8 +75,10 @@
 				<ul class="nav navbar-nav navbar-right">	
 					<li><a href="#">Home</a></li>
 					<li><a href="#product">Product</a></li>
-					<li><a href="#demo">Demo</a></li>
-					<li><a href="#contacts">Contacts</a></li>
+					<li><a href="#overview">Overview</a></li>
+					<li><a href="ew16.html">Demo EW'16</a></li>
+					<li><a href="#about">About us</a></li>
+					<li><a href="#demo">Contacts</a></li>
 				</ul>
 			</div>
 	
@@ -93,6 +103,7 @@
 								Pushing your industry into the cloud.
 							</div>
 							<a href="#demo"><button type="button" class="btn btn-default btn-lg">Ask for a Demo</button></a>
+							<a href="ew16.html"><button type="button" class="btn btn-default btn-lg">EW 2016 Demo</button></a>
 						</div>
 					</div>
 				</li>
@@ -107,6 +118,7 @@
 								Remoting your industrial business.
 							</div>
 							<a href="#demo"><button type="button" class="btn btn-default btn-lg">Ask for a Demo</button></a>
+							<a href="ew16.html"><button type="button" class="btn btn-default btn-lg">EW 2016 Demo</button></a>
 						</div>
 					</div>
 				</li>
@@ -121,6 +133,7 @@
 								We are the future of your smart industry.
 							</div>
 							<a href="#demo"><button type="button" class="btn btn-default btn-lg">Ask for a Demo</button></a>
+							<a href="ew16.html"><button type="button" class="btn btn-default btn-lg">EW 2016 Demo</button></a>
 						</div>
 					</div>
 				</li>
@@ -130,32 +143,61 @@
 	<!-- Home end -->
 
 	<!-- Wrapper start -->
-	<div class="main">
+	<div class="main" id="product">
 
 		<!-- About start -->
-		<section id="product" class="module">
+		<section class="module">
 			<div class="container">
 
 				<div class="row">
 
-					<div class="col-sm-8 col-sm-offset-2">
+					<div class="col-sm-6">
 
-						<h2 class="module-title font-alt">From the Sensors to the Cloud: <br> a Full Stack Solution</h2>
-						<div class="module-subtitle font-serif medium-text">
-							Astarte is a system to monitor and remotely control any type of machine connected to the Internet of Things. Astarte enables all the common scenarios for the management and control of the Things, with additional added values ​​such as completely remote management, storage of any  flow of data produced by the automation and control systems, quick search for faults, anomalies or outstanding scenarios in the recorded and incoming data, easy, secure and fast addition and removal of Things by the customer herself. Astarte is protected by state of art security practices to allow customers to confidently operate on the instrumented facilities from the internet. Astarte also eliminates the costs related to the management of firmware and hardware through HemeraOS, a multi-platform, multi-operating system architecture ready to deploy on any type of embedded system on the market. HemeraOS allows for a fast and immediate connection every system to the Astarte cloud, for deployment effort and time-to-market reduced to the bare minimum.	
+						<h5 class="font-alt">ABOUT ASTARTE</h5>
+						<br>
+						<p>IoT and Industry 4.0 are an unmatched opportunity to grow one’s business and take a leap into this new paradigm which is in full development, now. There has never been a better time to join this transformation and make the most out of it.<p>
+						<p>New infrastructures put in place today will have to face years of maintenance and continuous incremental improvements; relying on closed, in-house solutions is likely to backlash in the mid term, let alone being more expensive and time consuming.</p>
+						<p>Introducing Astarte, the IoT Open platform for industry: packed with industrial-grade support, already deployed widely and completely customisable. Astarte allows you to implement your own IoT/Industry 4.0 solution while keeping you in control.</p>
+
+					</div>
+
+					<div class="col-sm-6">
+
+						<h6 class="font-alt"><span class="icon-tools-2"></span> Development</h6>
+						<div class="progress">
+							<div class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+								<span class="font-alt"></span>
+							</div>
 						</div>
-						
+
+						<h6 class="font-alt"><span class="icon-strategy"></span> Branding</h6>
+						<div class="progress">
+							<div class="progress-bar pb-dark" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+								<span class="font-alt"></span>
+							</div>
+						</div>
+
+						<h6 class="font-alt"><span class="icon-target"></span> Marketing</h6>
+						<div class="progress">
+							<div class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+								<span class="font-alt"></span>
+							</div>
+						</div>
+
+						<h6 class="font-alt"><span class="icon-camera"></span> Photography</h6>
+						<div class="progress">
+							<div class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+								<span class="font-alt"></span>
+							</div>
+						</div>
 
 					</div>
 
 				</div><!-- .row -->
 
-				
-			</div><!-- .container -->
+			</div>
 		</section>
-		<!-- About end -->
-
-
+		<!-- About end -->	
 
 		<!-- Callout start -->
 		<section id="contacts" class="module-small bg-dark">
@@ -166,9 +208,9 @@
 					<div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
 
 						<div class="callout-text font-alt">
-							<h3 class="callout-title">CONTACT US</h3>
+							<h3 class="callout-title">EMBEDDED WORLD 2016</h3>
 							
-							<h3 class="callout-title">For any information, feel free to contact us.</h3>
+							<h3 class="callout-title">For any information, visit out at our stand.</h3>
 							
 						</div>
 
@@ -177,7 +219,177 @@
 					<div class="col-sm-6 col-md-4 col-lg-2">
 
 						<div class="callout-btn-box">
-							<a href="mailto:info@goastarte.com" class="btn btn-w btn-round">info@goastarte.com</a>
+							<a href="ew16.html" class="btn btn-w btn-round">MORE INFO -  EW'16</a>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Callout end -->		
+
+		<!-- Alt features start -->
+		<section id="alt-features" class="module" id="overview">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 col-sm-offset-3">
+
+						<h2 class="module-title font-alt">Overview</h2>
+						<div class="module-subtitle font-serif">
+							Astarte is an Open, Innovative and Secure solution to create connected system. Astarte provides you with all the needed components, from embedded software appliances to cloud applications, to implement SCADA or M2M systems with high tier availability and security. Astarte has been designed to scale with the needs of Industry: long term support, security and no data lock-ins are just a few of the most important features. Astarte makes it quick and easy to create and deploy your next IoT or Industry 4.0 product.
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-sm-6 col-md-3 col-lg-3">
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-strategy"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Branding</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-tools-2"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Development</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-target"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Marketing</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-tools"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Design</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+					</div><!-- .col -->
+
+					<!-- Alt features image start -->
+					<div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+
+						<div class="alt-services-image align-center">
+							<img src="photos/astarteSchema.png" alt="">
+						</div>
+
+					</div>
+					<!-- Alt features image end -->
+
+					<div class="col-sm-6 col-md-3 col-lg-3">
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-camera"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Photography</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-mobile"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Mobile</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-linegraph"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Music</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+						<!-- Alt features item start -->
+						<div class="alt-features-item">
+							<div class="alt-features-icon">
+								<span class="icon-basket"></span>
+							</div>
+							<h3 class="alt-features-title font-alt">Shop</h3>
+							A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+						</div>
+						<!-- Alt features item end -->
+
+					</div><!-- .col -->
+
+				</div><!-- .row -->
+
+				<br>
+				<br>
+				<div class="row">
+
+					<div class="col-sm-6 col-sm-offset-3">
+
+					
+						<h2 class="module-title font-alt">Technology</h2>
+						<div class="module-subtitle">
+						Astarte is a ready-made solution: a full stack from your device to the cloud, fully integrated with your company’s business logic. Keep control of your data: choose whether to deploy Astarte on your own infrastructure, our cloud infrastructure, or a third party cloud provider (AWS, Azure, etc…). Astarte is open: create new applications and implement new functionalities without any restrictions.
+						</div>
+
+					</div>
+
+				</div><!-- .row -->				
+
+			</div>
+		</section>
+		<!-- Alt features end -->
+
+		<!-- Callout start -->
+		<section id="contacts" class="module-small bg-dark">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+
+						<div class="callout-text font-alt">
+							<h2 class="callout-title">BROCHURE</h2>
+							
+							<h3 class="callout-title">More information needed? Download our brochure.</h3>
+							
+						</div>
+
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-2">
+
+						<div class="callout-btn-box">
+							<a href="downloads/brochure.pdf" target="_blank" class="btn btn-w btn-round">Download Brochure (PDF)</a>
 						</div>
 
 					</div>
@@ -188,9 +400,53 @@
 		</section>
 		<!-- Callout end -->
 
-				<!-- Divider -->
+		<!-- Divider -->
 		<hr class="divider-d">
 		<!-- Divider -->
+
+		<!-- Team start -->
+		<section id="about" class="module">
+			<div class="container">
+
+				<div class="row">
+
+
+					<h2 class="module-title font-alt">About us</h2>
+					<div class="module-subtitle">
+					Astarte is an Open initiative promoted by Ispirata S.r.l., a software house focused on embedded systems, providing innovative products and consultancy to shape the Industry of tomorrow. Market leaders in biomedical, digital signage, industrial and railways are already relying on Ispirata for their latest products, and our strong ecosystem is made of the most relevant hardware vendors and distributors worldwide.
+					</div>
+
+
+					<p align="center"><img src="photos/consortium.png" width="45%"></p>
+
+
+
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Team end -->
+
+		<!-- Callout start -->
+		<section class="module-small bg-dark">
+			<div class="container">
+
+				<div class="row">
+
+						<div class="callout-text font-alt" align="center">
+							<h1>The Cloud For Embedded Systems</h1>
+						</div>
+
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Callout end -->
+
+
+		<!-- Divider -->
+		<hr class="divider-d">
+		<!-- Divider -->		
 
 		<!-- Features start -->
 		<section id="demo" class="module">
@@ -200,7 +456,8 @@
 					<div class="col-sm-2 "></div>
 					<div class="col-sm-8 ">
 
-						<h2 class="module-title font-alt">Ask for a Demo</h2>
+						<h1 class="module-title font-alt">Contact us & Ask for a Demo</h1>
+						
 
 						<div class="module-subtitle font-serif large-text">
 
@@ -235,79 +492,9 @@
 		</section>
 		<!-- Features end -->	
 
-						<!-- Callout start -->
-		<section class="module-small bg-dark">
-			<div class="container">
-
-				<div class="row">
-
-						<div class="callout-text font-alt" align="center">
-							<h1>The Cloud For Embedded Systems</h1>
-						</div>
-
-				</div><!-- .row -->
-
-			</div>
-		</section>
-		<!-- Callout end -->
 
 		<!-- Divider -->
 		<hr class="divider-w">
-		<!-- Divider -->
-
-
-
-
-		<!-- Divider -->
-		<hr class="divider-w">
-		<!-- Divider -->
-
-		<!-- Team start -->
-		<section id="theteam" class="module">
-			<div class="container">
-
-				<div class="row">
-
-
-					<h2 class="module-title font-alt">A PRODUCT BY</h2>
-
-					<div class="col-sm-6 col-md-6 col-lg-6">
-
-						<div align="center">
-							<img src="photos/bottega_logo.png">
-							<br>
-							Bottega 52 SRL
-							<br>
-							<br>
-							<a href="http://www.bottega52.it">www.bottega52.it</a>
-						</div>
-
-					</div>
-
-					<div class="col-sm-6 col-md-6 col-lg-6">
-
-						<div align="center">
-							<img src="photos/ispirata_logo.png">
-							<br>
-							Ispirata SRL
-							<br>
-							<br>
-							<a href="http://www.ispirata.com">www.ispirata.com</a>
-						</div>
-
-
-					</div>
-
-
-
-				</div><!-- .row -->
-
-			</div>
-		</section>
-		<!-- Team end -->
-
-		<!-- Divider -->
-		<hr class="divider-d">
 		<!-- Divider -->
 
 
